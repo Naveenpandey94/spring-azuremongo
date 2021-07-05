@@ -24,7 +24,7 @@ public class EmployeeController {
         return employeeService.listAllEmployee();
     }
 
-    @GetMapping("message")
+    @GetMapping("get/message")
     public String showMessage(){
         return "Application is deployed to azure server successfully!!";
     }
